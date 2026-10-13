@@ -1,0 +1,11 @@
+{
+  "seed": 369,
+  "split_seed": 369,
+  "epochs": 40,
+  "batch_size": 64,
+  "learning_rate": 0.002,
+  "weight_decay": 0.0001,
+  "threads": 2,
+  "val_fraction": 0.15,
+  "calibration_samples": 512
+}

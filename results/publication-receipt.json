@@ -1,0 +1,29 @@
+{
+  "github": {
+    "owner": "Christopher4U1978",
+    "planned_repository": "anna-neural-intelligence",
+    "status": "blocked_repository_creation_unavailable",
+    "publication_approved": true,
+    "requests_made_to_models": 0
+  },
+  "website": {
+    "id": "appgdep_6aceb4cf90448191bd316828fee8d8f1",
+    "project_id": "appgprj_6a8a316e4c208191b81d9adffc57ead2",
+    "title": "Behind the Veil 369 | Development Ledger",
+    "version_id": "appgprj_6a8a316e4c208191b81d9adffc57ead2~appgver_43060482a55c81918966c3acc34f70b5",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://behind-the-veil-369-work.annanexuslabs.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6a8a316e4c208191b81d9adffc57ead2",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-13T22:46:50.736527+00:00",
+    "source_commit": "b3fc381860b453f83befe1b54631af8c3915098d",
+    "tests_passed": 29,
+    "tests_failed": 0,
+    "targeted_typescript": "passed",
+    "real_device_browser_qa": "unverified"
+  }
+}

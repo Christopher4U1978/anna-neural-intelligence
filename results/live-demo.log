@@ -1,0 +1,68 @@
+test_backward_all_trainable_parameters (test_engineering.EngineeringTests.test_backward_all_trainable_parameters) ... ok
+test_benchmark_bad_inputs (test_engineering.EngineeringTests.test_benchmark_bad_inputs) ... ok
+test_benchmark_math (test_engineering.EngineeringTests.test_benchmark_math) ... ok
+test_benchmark_retains_repeated_samples (test_engineering.EngineeringTests.test_benchmark_retains_repeated_samples) ... ok
+test_channels_last_same_logits (test_engineering.EngineeringTests.test_channels_last_same_logits) ... ok
+test_checkpoint_exact_logits_optimizer (test_engineering.EngineeringTests.test_checkpoint_exact_logits_optimizer) ... ok
+test_constant_normalization_rejected (test_engineering.EngineeringTests.test_constant_normalization_rejected) ... ok
+test_dataset_tamper_rejected (test_engineering.EngineeringTests.test_dataset_tamper_rejected) ... ok
+test_different_seed_changes_weights (test_engineering.EngineeringTests.test_different_seed_changes_weights) ... ok
+test_empty_evaluation_rejected (test_engineering.EngineeringTests.test_empty_evaluation_rejected) ... ok
+test_evaluation_known_predictions (test_engineering.EngineeringTests.test_evaluation_known_predictions) ... ok
+test_int8_context_restores_after_exception (test_engineering.EngineeringTests.test_int8_context_restores_after_exception) ... /root/.local/lib/python3.12/site-packages/torch/ao/quantization/observer.py:229: UserWarning: Please use quant_min and quant_max to specify the range for observers.                     reduce_range will be deprecated in a future release of PyTorch.
+  warnings.warn(
+ok
+test_loader_batching (test_engineering.EngineeringTests.test_loader_batching) ... ok
+test_loader_shuffle_seed (test_engineering.EngineeringTests.test_loader_shuffle_seed) ... ok
+test_loss_finite (test_engineering.EngineeringTests.test_loss_finite) ... ok
+test_normalization_fit_training_only (test_engineering.EngineeringTests.test_normalization_fit_training_only) ... ok
+test_optimizer_changes_weights (test_engineering.EngineeringTests.test_optimizer_changes_weights) ... ok
+test_parameter_count (test_engineering.EngineeringTests.test_parameter_count) ... ok
+test_quantized_reload (test_engineering.EngineeringTests.test_quantized_reload) ... /root/.local/lib/python3.12/site-packages/torch/_utils.py:413: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  device=storage.device,
+ok
+test_quantized_shape_and_real_integer_ops (test_engineering.EngineeringTests.test_quantized_shape_and_real_integer_ops) ... ok
+test_real_schema_pipeline_train_only_statistics (test_engineering.EngineeringTests.test_real_schema_pipeline_train_only_statistics) ... ok
+test_repeatable_training_step (test_engineering.EngineeringTests.test_repeatable_training_step) ... ok
+test_seed_same_initialization (test_engineering.EngineeringTests.test_seed_same_initialization) ... ok
+test_shapes (test_engineering.EngineeringTests.test_shapes) ... ok
+test_source_manifest (test_engineering.EngineeringTests.test_source_manifest) ... ok
+test_split_disjoint_complete (test_engineering.EngineeringTests.test_split_disjoint_complete) ... ok
+test_split_reproducible (test_engineering.EngineeringTests.test_split_reproducible) ... ok
+test_unsupported_quantization_rejected (test_engineering.EngineeringTests.test_unsupported_quantization_rejected) ... ok
+test_validation_fraction_bounds (test_engineering.EngineeringTests.test_validation_fraction_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 2.612s
+
+OK
+{
+  "status": "local_inference",
+  "dataset": "UCI optical digits official held-out test",
+  "index": 0,
+  "truth": 0,
+  "prediction": 0,
+  "probabilities": [
+    0.9999912977218628,
+    8.97144650235937e-11,
+    2.3029578244404547e-07,
+    5.3531206134493914e-08,
+    1.9441465104463873e-10,
+    6.460496024374152e-06,
+    1.7063103996406426e-07,
+    1.5227225036440473e-09,
+    3.775662094085419e-08,
+    1.8918907471743296e-06
+  ],
+  "note": "softmax score is not calibrated certainty"
+}
+{"samples": 1797, "correct": 1754, "accuracy": 0.9760712298274903, "accuracy_wilson_95": [0.9679243678917968, 0.9821869578350189], "loss": 0.08620609965376672, "confusion_matrix": [[178, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 182, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 176, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 179, 0, 1, 0, 1, 1, 1], [0, 1, 0, 0, 174, 0, 2, 0, 0, 4], [0, 0, 0, 0, 0, 178, 3, 0, 0, 1], [1, 0, 0, 0, 0, 0, 179, 0, 1, 0], [0, 0, 0, 0, 0, 1, 0, 166, 0, 12], [0, 1, 0, 0, 0, 0, 2, 0, 166, 5], [0, 0, 0, 0, 1, 1, 0, 0, 2, 176]], "per_class": [{"class": 0, "precision": 0.994413407821229, "recall": 1.0, "f1": 0.9971988795518207, "support": 178}, {"class": 1, "precision": 0.9837837837837838, "recall": 1.0, "f1": 0.9918256130790191, "support": 182}, {"class": 2, "precision": 1.0, "recall": 0.9943502824858758, "f1": 0.9971671388101983, "support": 177}, {"class": 3, "precision": 1.0, "recall": 0.9781420765027322, "f1": 0.988950276243094, "support": 183}, {"class": 4, "precision": 0.9942857142857143, "recall": 0.9613259668508287, "f1": 0.9775280898876404, "support": 181}, {"class": 5, "precision": 0.9834254143646409, "recall": 0.978021978021978, "f1": 0.9807162534435262, "support": 182}, {"class": 6, "precision": 0.9623655913978495, "recall": 0.988950276243094, "f1": 0.9754768392370572, "support": 181}, {"class": 7, "precision": 0.9940119760479041, "recall": 0.9273743016759777, "f1": 0.9595375722543352, "support": 179}, {"class": 8, "precision": 0.9764705882352941, "recall": 0.9540229885057471, "f1": 0.9651162790697675, "support": 174}, {"class": 9, "precision": 0.8844221105527639, "recall": 0.9777777777777777, "f1": 0.9287598944591029, "support": 180}]}
+/root/.local/lib/python3.12/site-packages/torch/_utils.py:413: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  device=storage.device,
+/root/.local/lib/python3.12/site-packages/torch/ao/quantization/observer.py:229: UserWarning: Please use quant_min and quant_max to specify the range for observers.                     reduce_range will be deprecated in a future release of PyTorch.
+  warnings.warn(
+{"samples": 1797, "correct": 1738, "accuracy": 0.9671675013912076, "accuracy_wilson_95": [0.9578804093615835, 0.9744614468016682], "loss": 0.11789798197472799, "confusion_matrix": [[178, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 180, 0, 0, 0, 0, 0, 0, 1, 1], [0, 1, 173, 2, 0, 0, 0, 1, 0, 0], [0, 0, 0, 178, 0, 1, 0, 1, 1, 2], [0, 0, 0, 0, 176, 0, 0, 0, 1, 4], [0, 0, 0, 0, 0, 179, 1, 0, 0, 2], [1, 2, 0, 0, 2, 1, 174, 0, 1, 0], [0, 0, 0, 1, 0, 2, 0, 162, 0, 14], [0, 1, 0, 0, 1, 1, 0, 0, 164, 7], [0, 0, 0, 1, 1, 3, 0, 0, 1, 174]], "per_class": [{"class": 0, "precision": 0.994413407821229, "recall": 1.0, "f1": 0.9971988795518207, "support": 178}, {"class": 1, "precision": 0.9782608695652174, "recall": 0.989010989010989, "f1": 0.9836065573770492, "support": 182}, {"class": 2, "precision": 1.0, "recall": 0.9774011299435028, "f1": 0.9885714285714285, "support": 177}, {"class": 3, "precision": 0.978021978021978, "recall": 0.9726775956284153, "f1": 0.9753424657534246, "support": 183}, {"class": 4, "precision": 0.9777777777777777, "recall": 0.9723756906077348, "f1": 0.9750692520775623, "support": 181}, {"class": 5, "precision": 0.9572192513368984, "recall": 0.9835164835164835, "f1": 0.9701897018970189, "support": 182}, {"class": 6, "precision": 0.9942857142857143, "recall": 0.9613259668508287, "f1": 0.9775280898876404, "support": 181}, {"class": 7, "precision": 0.9878048780487805, "recall": 0.9050279329608939, "f1": 0.9446064139941691, "support": 179}, {"class": 8, "precision": 0.9704142011834319, "recall": 0.9425287356321839, "f1": 0.956268221574344, "support": 174}, {"class": 9, "precision": 0.8529411764705882, "recall": 0.9666666666666667, "f1": 0.90625, "support": 180}]}
+/root/.local/lib/python3.12/site-packages/torch/_utils.py:413: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  device=storage.device,
+/root/.local/lib/python3.12/site-packages/torch/ao/quantization/observer.py:229: UserWarning: Please use quant_min and quant_max to specify the range for observers.                     reduce_range will be deprecated in a future release of PyTorch.
+  warnings.warn(

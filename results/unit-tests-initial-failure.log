@@ -1,0 +1,95 @@
+test_backward_all_trainable_parameters (test_engineering.EngineeringTests.test_backward_all_trainable_parameters) ... ok
+test_benchmark_bad_inputs (test_engineering.EngineeringTests.test_benchmark_bad_inputs) ... ok
+test_benchmark_math (test_engineering.EngineeringTests.test_benchmark_math) ... ok
+test_benchmark_retains_repeated_samples (test_engineering.EngineeringTests.test_benchmark_retains_repeated_samples) ... ok
+test_channels_last_same_logits (test_engineering.EngineeringTests.test_channels_last_same_logits) ... ok
+test_checkpoint_exact_logits_optimizer (test_engineering.EngineeringTests.test_checkpoint_exact_logits_optimizer) ... ok
+test_constant_normalization_rejected (test_engineering.EngineeringTests.test_constant_normalization_rejected) ... ok
+test_different_seed_changes_weights (test_engineering.EngineeringTests.test_different_seed_changes_weights) ... ok
+test_empty_evaluation_rejected (test_engineering.EngineeringTests.test_empty_evaluation_rejected) ... ok
+test_evaluation_known_predictions (test_engineering.EngineeringTests.test_evaluation_known_predictions) ... ok
+test_loader_batching (test_engineering.EngineeringTests.test_loader_batching) ... ok
+test_loader_shuffle_seed (test_engineering.EngineeringTests.test_loader_shuffle_seed) ... ok
+test_loss_finite (test_engineering.EngineeringTests.test_loss_finite) ... ok
+test_normalization_fit_training_only (test_engineering.EngineeringTests.test_normalization_fit_training_only) ... ok
+test_optimizer_changes_weights (test_engineering.EngineeringTests.test_optimizer_changes_weights) ... ok
+test_parameter_count (test_engineering.EngineeringTests.test_parameter_count) ... ok
+test_quantized_reload (test_engineering.EngineeringTests.test_quantized_reload) ... /root/.local/lib/python3.12/site-packages/torch/ao/quantization/observer.py:229: UserWarning: Please use quant_min and quant_max to specify the range for observers.                     reduce_range will be deprecated in a future release of PyTorch.
+  warnings.warn(
+/root/.local/lib/python3.12/site-packages/torch/_utils.py:413: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  device=storage.device,
+ERROR
+test_quantized_shape_and_real_integer_ops (test_engineering.EngineeringTests.test_quantized_shape_and_real_integer_ops) ... ERROR
+test_repeatable_training_step (test_engineering.EngineeringTests.test_repeatable_training_step) ... ok
+test_seed_same_initialization (test_engineering.EngineeringTests.test_seed_same_initialization) ... ok
+test_shapes (test_engineering.EngineeringTests.test_shapes) ... ok
+test_source_manifest (test_engineering.EngineeringTests.test_source_manifest) ... ok
+test_split_disjoint_complete (test_engineering.EngineeringTests.test_split_disjoint_complete) ... ok
+test_split_reproducible (test_engineering.EngineeringTests.test_split_reproducible) ... ok
+test_unsupported_quantization_rejected (test_engineering.EngineeringTests.test_unsupported_quantization_rejected) ... ok
+test_validation_fraction_bounds (test_engineering.EngineeringTests.test_validation_fraction_bounds) ... ok
+
+======================================================================
+ERROR: test_quantized_reload (test_engineering.EngineeringTests.test_quantized_reload)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/5e869b31a612/anna-neural-intelligence/tests/test_engineering.py", line 66, in test_quantized_reload
+    path=Path(tmp)/'int8.pt';save_quantized(path,q);r=load_quantized(path,self.model);torch.testing.assert_close(q(x),r(x),rtol=0,atol=0)
+                                                                                                                 ^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/5e869b31a612/anna-neural-intelligence/src/anna_neural/model.py", line 23, in forward
+    x=self.relu3(self.fc1(x));return self.dequant(self.fc2(x))
+                 ^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/ao/nn/intrinsic/quantized/modules/linear_relu.py", line 39, in forward
+    return torch.ops.quantized.linear_relu(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/_ops.py", line 1116, in __call__
+    return self._op(*args, **(kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: quantized_resize_cpu_ does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.
+
+======================================================================
+ERROR: test_quantized_shape_and_real_integer_ops (test_engineering.EngineeringTests.test_quantized_shape_and_real_integer_ops)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/5e869b31a612/anna-neural-intelligence/tests/test_engineering.py", line 62, in test_quantized_shape_and_real_integer_ops
+    q=quantize(self.model,TensorDataset(torch.randn(40,1,8,8),torch.zeros(40,dtype=torch.long)),32);self.assertEqual(tuple(q(torch.randn(3,1,8,8)).shape),(3,10));self.assertEqual(q.conv1.weight().dtype,torch.qint8);self.assertEqual(q.fc2.weight().dtype,torch.qint8)
+                                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/5e869b31a612/anna-neural-intelligence/src/anna_neural/model.py", line 23, in forward
+    x=self.relu3(self.fc1(x));return self.dequant(self.fc2(x))
+                 ^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/ao/nn/intrinsic/quantized/modules/linear_relu.py", line 39, in forward
+    return torch.ops.quantized.linear_relu(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/lib/python3.12/site-packages/torch/_ops.py", line 1116, in __call__
+    return self._op(*args, **(kwargs or {}))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: quantized_resize_cpu_ does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.
+
+----------------------------------------------------------------------
+Ran 26 tests in 3.122s
+
+FAILED (errors=2)

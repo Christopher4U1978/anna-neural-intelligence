@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "anna-neural-intelligence"
+version = "0.1.0"
+description = "A reproducible CPU hardware-aware CNN engineering demonstration"
+requires-python = ">=3.11,<3.13"
+dependencies = ["torch==2.5.1", "numpy==2.2.6", "scikit-learn==1.8.0", "matplotlib==3.10.8"]
+[project.scripts]
+anna-neural = "anna_neural.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]

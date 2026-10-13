@@ -1,0 +1,7 @@
+{
+  "identical_selected_weights": true,
+  "identical_test_metrics": true,
+  "identical_data_manifest": true,
+  "identical_selected_epoch": true,
+  "scope": "same CPU environment, PyTorch version, data, seeds and thread count; no cross-platform guarantee"
+}

@@ -1,0 +1,12 @@
+✔ ANNA overview preserves independent authorization boundaries (120.0567ms)
+✔ Neural evidence page renders real metrics and disclosure (33.224202ms)
+✔ Existing development projects retain home navigation (41.921426ms)
+✔ Existing records route still renders (20.247183ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 486.114532

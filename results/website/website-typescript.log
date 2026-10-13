@@ -1,0 +1,184 @@
+concordia/src/components/game/BargainView.tsx(1,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/BargainView.tsx(32,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ClockPlate.tsx(1,24): error TS2307: Cannot find module '@/game/clock' or its corresponding type declarations.
+concordia/src/components/game/CodexView.tsx(3,22): error TS2307: Cannot find module '@/game/data' or its corresponding type declarations.
+concordia/src/components/game/CodexView.tsx(4,21): error TS2307: Cannot find module '@/game/audio' or its corresponding type declarations.
+concordia/src/components/game/CodexView.tsx(5,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/CodexView.tsx(11,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CodexView.tsx(12,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CodexView.tsx(13,27): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CodexView.tsx(14,27): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CodexView.tsx(15,27): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CodexView.tsx(18,24): error TS7006: Parameter 'l' implicitly has an 'any' type.
+concordia/src/components/game/CodexView.tsx(22,33): error TS7006: Parameter 'l' implicitly has an 'any' type.
+concordia/src/components/game/CodexView.tsx(51,42): error TS7006: Parameter 'l' implicitly has an 'any' type.
+concordia/src/components/game/CodexView.tsx(56,28): error TS7006: Parameter 'l' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(2,30): error TS2307: Cannot find module '@/game/combat' or its corresponding type declarations.
+concordia/src/components/game/CombatView.tsx(3,36): error TS2307: Cannot find module '@/game/data' or its corresponding type declarations.
+concordia/src/components/game/CombatView.tsx(4,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/CombatView.tsx(5,47): error TS2307: Cannot find module '@/game/types' or its corresponding type declarations.
+concordia/src/components/game/CombatView.tsx(38,37): error TS7006: Parameter 'l' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(110,27): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(111,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(112,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(113,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(114,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(115,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(116,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(117,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(118,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(119,29): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(151,39): error TS7006: Parameter 'u' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(152,40): error TS7006: Parameter 'u' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(206,25): error TS7006: Parameter 'u' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(226,24): error TS7006: Parameter 'u' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(250,38): error TS7006: Parameter 'l' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(454,28): error TS7006: Parameter 'id' implicitly has an 'any' type.
+concordia/src/components/game/CombatView.tsx(454,32): error TS7006: Parameter 'i' implicitly has an 'any' type.
+concordia/src/components/game/CreditsView.tsx(2,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/CreditsView.tsx(37,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/CreditsView.tsx(38,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/EndingView.tsx(1,29): error TS2307: Cannot find module '@/game/realities' or its corresponding type declarations.
+concordia/src/components/game/EndingView.tsx(2,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/EndingView.tsx(7,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/EndingView.tsx(8,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/EndingView.tsx(9,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/EndingView.tsx(10,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/EndingView.tsx(11,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/EndingView.tsx(12,29): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/EndingView.tsx(13,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/EvolveView.tsx(1,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/EvolveView.tsx(5,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(2,190): error TS2307: Cannot find module '@/game/causeway' or its corresponding type declarations.
+concordia/src/components/game/ExploreView.tsx(3,23): error TS2307: Cannot find module '@/game/audio' or its corresponding type declarations.
+concordia/src/components/game/ExploreView.tsx(4,25): error TS2307: Cannot find module '@/game/progress' or its corresponding type declarations.
+concordia/src/components/game/ExploreView.tsx(5,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/ExploreView.tsx(50,25): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(51,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(52,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(53,23): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(54,25): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(55,25): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(56,25): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(57,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(58,27): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(59,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(60,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(61,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(62,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(63,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(64,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ExploreView.tsx(66,16): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ causeway: { title: string; art: string; npc: any; secret: any; patrol: any; gate: any; npcName: string; npcSprite: string; patrolName: string; patrolSprite: string; secretName: string; relicName: string; gateName: string; returnName: string; secretFlag: "causewaySecret"; copy: { ...; }; }; cinder: { ...; }; }'.
+concordia/src/components/game/ForgeView.tsx(2,50): error TS2307: Cannot find module '@/game/realities' or its corresponding type declarations.
+concordia/src/components/game/ForgeView.tsx(3,26): error TS2307: Cannot find module '@/game/progress' or its corresponding type declarations.
+concordia/src/components/game/ForgeView.tsx(4,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/ForgeView.tsx(8,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ForgeView.tsx(9,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/ForgeView.tsx(39,22): error TS7006: Parameter 'r' implicitly has an 'any' type.
+concordia/src/components/game/ForgeView.tsx(70,35): error TS7006: Parameter 'r' implicitly has an 'any' type.
+concordia/src/components/game/FusionView.tsx(1,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/FusionView.tsx(29,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(2,30): error TS2307: Cannot find module '@/game/combat' or its corresponding type declarations.
+concordia/src/components/game/GameRoot.tsx(3,24): error TS2307: Cannot find module '@/game/data' or its corresponding type declarations.
+concordia/src/components/game/GameRoot.tsx(4,37): error TS2307: Cannot find module '@/game/audio' or its corresponding type declarations.
+concordia/src/components/game/GameRoot.tsx(5,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/GameRoot.tsx(23,27): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(24,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(25,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(26,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(27,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(28,27): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(29,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(30,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(31,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/GameRoot.tsx(32,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/IntroScreen.tsx(2,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/IntroScreen.tsx(6,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/IntroScreen.tsx(7,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/IntroScreen.tsx(8,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(2,53): error TS2307: Cannot find module '@/game/atlas' or its corresponding type declarations.
+concordia/src/components/game/MapView.tsx(3,37): error TS2307: Cannot find module '@/game/data' or its corresponding type declarations.
+concordia/src/components/game/MapView.tsx(4,31): error TS2307: Cannot find module '@/game/choices' or its corresponding type declarations.
+concordia/src/components/game/MapView.tsx(5,25): error TS2307: Cannot find module '@/game/progress' or its corresponding type declarations.
+concordia/src/components/game/MapView.tsx(6,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/MapView.tsx(12,25): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(13,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(14,23): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(15,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(16,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(17,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(18,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(19,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(20,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(21,29): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(22,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(23,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(24,34): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(25,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(26,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(27,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(29,43): error TS7006: Parameter 'n' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(41,31): error TS7006: Parameter 'id' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(102,32): error TS7006: Parameter 'id' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(102,83): error TS7006: Parameter 'id' implicitly has an 'any' type.
+concordia/src/components/game/MapView.tsx(119,27): error TS7006: Parameter 'n' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(1,49): error TS2307: Cannot find module '@/game/data' or its corresponding type declarations.
+concordia/src/components/game/PrepareView.tsx(2,31): error TS2307: Cannot find module '@/game/choices' or its corresponding type declarations.
+concordia/src/components/game/PrepareView.tsx(3,25): error TS2307: Cannot find module '@/game/progress' or its corresponding type declarations.
+concordia/src/components/game/PrepareView.tsx(4,24): error TS2307: Cannot find module '@/game/story' or its corresponding type declarations.
+concordia/src/components/game/PrepareView.tsx(5,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/PrepareView.tsx(10,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(11,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(12,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(13,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(14,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(15,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(16,23): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(17,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(18,35): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(19,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(20,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(21,29): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(46,26): error TS7006: Parameter 'id' implicitly has an 'any' type.
+concordia/src/components/game/PrepareView.tsx(46,67): error TS7006: Parameter 'id' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(2,22): error TS2307: Cannot find module '@/game/audio' or its corresponding type declarations.
+concordia/src/components/game/SceneView.tsx(3,28): error TS2307: Cannot find module '@/game/data' or its corresponding type declarations.
+concordia/src/components/game/SceneView.tsx(4,34): error TS2307: Cannot find module '@/game/choices' or its corresponding type declarations.
+concordia/src/components/game/SceneView.tsx(5,29): error TS2307: Cannot find module '@/game/realities' or its corresponding type declarations.
+concordia/src/components/game/SceneView.tsx(6,24): error TS2307: Cannot find module '@/game/story' or its corresponding type declarations.
+concordia/src/components/game/SceneView.tsx(7,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/SceneView.tsx(13,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(14,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(15,31): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(16,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(17,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(18,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(19,32): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(20,29): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(21,26): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(22,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(23,27): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(24,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SceneView.tsx(25,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/SummonView.tsx(1,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/SummonView.tsx(23,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/TitleScreen.tsx(4,25): error TS2307: Cannot find module '@/game/store' or its corresponding type declarations.
+concordia/src/components/game/TitleScreen.tsx(5,36): error TS2307: Cannot find module '@/game/offline' or its corresponding type declarations.
+concordia/src/components/game/TitleScreen.tsx(6,48): error TS2307: Cannot find module '@/game/save' or its corresponding type declarations.
+concordia/src/components/game/TitleScreen.tsx(7,24): error TS2307: Cannot find module '@/game/story' or its corresponding type declarations.
+concordia/src/components/game/TitleScreen.tsx(12,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/TitleScreen.tsx(13,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/TitleScreen.tsx(14,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/TitleScreen.tsx(15,33): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/TitleScreen.tsx(16,30): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/TitleScreen.tsx(18,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+concordia/src/components/game/chrome.tsx(2,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+concordia/src/components/game/world.tsx(2,20): error TS2307: Cannot find module '@/lib/utils' or its corresponding type declarations.
+concordia/src/game/combat.ts(1,70): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+concordia/src/game/combat.ts(2,49): error TS5097: An import path can only end with a '.ts' extension when 'allowImportingTsExtensions' is enabled.
+concordia/src/game/offline.ts(23,22): error TS2339: Property 'env' does not exist on type 'ImportMeta'.
+db/concordia-votes.ts(1,21): error TS2307: Cannot find module 'cloudflare:workers' or its corresponding type declarations.
+db/concordia-votes.ts(6,22): error TS2552: Cannot find name 'D1Database'. Did you mean 'IDBDatabase'?
+db/index.ts(1,21): error TS2307: Cannot find module 'cloudflare:workers' or its corresponding type declarations.
+worker/index.ts(6,11): error TS2304: Cannot find name 'Fetcher'.
+worker/index.ts(7,7): error TS2552: Cannot find name 'D1Database'. Did you mean 'IDBDatabase'?

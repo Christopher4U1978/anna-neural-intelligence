@@ -1,0 +1,1 @@
+Historical initial training attempt without frozen start/end source verification. Excluded from final reference metrics. Its source changed during ongoing implementation. Raw receipts are preserved unchanged. Use results/seed369 for the verified reference.

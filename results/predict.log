@@ -1,0 +1,20 @@
+{
+  "status": "local_inference",
+  "dataset": "UCI optical digits official held-out test",
+  "index": 0,
+  "truth": 0,
+  "prediction": 0,
+  "probabilities": [
+    0.9999912977218628,
+    8.97144650235937e-11,
+    2.3029578244404547e-07,
+    5.3531206134493914e-08,
+    1.9441465104463873e-10,
+    6.460496024374152e-06,
+    1.7063103996406426e-07,
+    1.5227225036440473e-09,
+    3.775662094085419e-08,
+    1.8918907471743296e-06
+  ],
+  "note": "softmax score is not calibrated certainty"
+}

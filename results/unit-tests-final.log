@@ -1,0 +1,38 @@
+test_backward_all_trainable_parameters (test_engineering.EngineeringTests.test_backward_all_trainable_parameters) ... ok
+test_benchmark_bad_inputs (test_engineering.EngineeringTests.test_benchmark_bad_inputs) ... ok
+test_benchmark_math (test_engineering.EngineeringTests.test_benchmark_math) ... ok
+test_benchmark_retains_repeated_samples (test_engineering.EngineeringTests.test_benchmark_retains_repeated_samples) ... ok
+test_channels_last_same_logits (test_engineering.EngineeringTests.test_channels_last_same_logits) ... ok
+test_checkpoint_exact_logits_optimizer (test_engineering.EngineeringTests.test_checkpoint_exact_logits_optimizer) ... ok
+test_constant_normalization_rejected (test_engineering.EngineeringTests.test_constant_normalization_rejected) ... ok
+test_dataset_tamper_rejected (test_engineering.EngineeringTests.test_dataset_tamper_rejected) ... ok
+test_different_seed_changes_weights (test_engineering.EngineeringTests.test_different_seed_changes_weights) ... ok
+test_empty_evaluation_rejected (test_engineering.EngineeringTests.test_empty_evaluation_rejected) ... ok
+test_evaluation_known_predictions (test_engineering.EngineeringTests.test_evaluation_known_predictions) ... ok
+test_int8_context_restores_after_exception (test_engineering.EngineeringTests.test_int8_context_restores_after_exception) ... /root/.local/lib/python3.12/site-packages/torch/ao/quantization/observer.py:229: UserWarning: Please use quant_min and quant_max to specify the range for observers.                     reduce_range will be deprecated in a future release of PyTorch.
+  warnings.warn(
+ok
+test_loader_batching (test_engineering.EngineeringTests.test_loader_batching) ... ok
+test_loader_shuffle_seed (test_engineering.EngineeringTests.test_loader_shuffle_seed) ... ok
+test_loss_finite (test_engineering.EngineeringTests.test_loss_finite) ... ok
+test_normalization_fit_training_only (test_engineering.EngineeringTests.test_normalization_fit_training_only) ... ok
+test_optimizer_changes_weights (test_engineering.EngineeringTests.test_optimizer_changes_weights) ... ok
+test_parameter_count (test_engineering.EngineeringTests.test_parameter_count) ... ok
+test_quantized_reload (test_engineering.EngineeringTests.test_quantized_reload) ... /root/.local/lib/python3.12/site-packages/torch/_utils.py:413: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  device=storage.device,
+ok
+test_quantized_shape_and_real_integer_ops (test_engineering.EngineeringTests.test_quantized_shape_and_real_integer_ops) ... ok
+test_real_schema_pipeline_train_only_statistics (test_engineering.EngineeringTests.test_real_schema_pipeline_train_only_statistics) ... ok
+test_repeatable_training_step (test_engineering.EngineeringTests.test_repeatable_training_step) ... ok
+test_seed_same_initialization (test_engineering.EngineeringTests.test_seed_same_initialization) ... ok
+test_shapes (test_engineering.EngineeringTests.test_shapes) ... ok
+test_source_manifest (test_engineering.EngineeringTests.test_source_manifest) ... ok
+test_split_disjoint_complete (test_engineering.EngineeringTests.test_split_disjoint_complete) ... ok
+test_split_reproducible (test_engineering.EngineeringTests.test_split_reproducible) ... ok
+test_unsupported_quantization_rejected (test_engineering.EngineeringTests.test_unsupported_quantization_rejected) ... ok
+test_validation_fraction_bounds (test_engineering.EngineeringTests.test_validation_fraction_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 4.208s
+
+OK

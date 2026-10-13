@@ -1,0 +1,14 @@
+{
+  "configs/cpu.json": "fd59a79bdb13474b27b8986689fbc624c9d2e4fd9f7a2661af5911aba639939d",
+  "pyproject.toml": "7604caa2e77121ff3cfea7977875d6c7df16f72cdf2278f76171f727bc9f0a31",
+  "src/anna_neural/__init__.py": "f5fa44879b317cb22912b346207263c3c28401d08e7bdb383c8960b0458ec198",
+  "src/anna_neural/benchmarking.py": "795ce0f6593442cdcf1bbb96088e27f764fda946376f44b80d15d9e3f1c5cb3b",
+  "src/anna_neural/cli.py": "a426a887bc877a589c8048f2f1f45707f4c49c77c8eebf794be8f7ce9d4951db",
+  "src/anna_neural/common.py": "ef271f70c47dce7bb2c725633da7e8b84469a6aafe9d1ff18ccb4faf314f6a5c",
+  "src/anna_neural/data.py": "2bd333e52a37acc8e7c689ae42299495e06af7c139c5285afa0e3fd5c13a9538",
+  "src/anna_neural/evaluation.py": "fb4ea3522de69b4abeaa8d41c6570494297f631783f7527f6cc17b34a11a611f",
+  "src/anna_neural/model.py": "cf376869c22a5192fab6f1be0ef76130ac5484f241ebac246faf6f596a1bb22a",
+  "src/anna_neural/optimization.py": "75acf6f24f7804cc62f7d315c12b19742f34b6a0b9ecdf88b3b796ec70f772bf",
+  "src/anna_neural/training.py": "7cf6b5b754d9aa4fde737fdecd35719ff3b83c416816dceb533fcb7f08ef9aa9",
+  "tests/test_engineering.py": "fd07ac02032ea5c85274fe60664919c99a0acdc5b45ea5d44af2233845c0a5e0"
+}

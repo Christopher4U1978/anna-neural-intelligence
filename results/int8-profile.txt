@@ -1,0 +1,24 @@
+---------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                             Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg       CPU Mem  Self CPU Mem    # of Calls  
+---------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+           quantized::conv2d_relu        36.53%       4.222ms        37.40%       4.321ms     108.028us     960.00 Kb           0 b            40  
+       aten::quantized_max_pool2d        20.36%       2.352ms        20.88%       2.413ms     120.661us     160.00 Kb           0 b            20  
+           quantized::linear_relu        12.37%       1.429ms        13.32%       1.539ms      76.956us      40.00 Kb    -156.00 Kb            20  
+                      aten::clone        11.67%       1.349ms        12.21%       1.410ms      70.520us     320.00 Kb           0 b            20  
+                quantized::linear         9.67%       1.118ms        10.38%       1.199ms      59.967us       6.25 Kb     -22.50 Kb            20  
+    aten::_empty_affine_quantized         2.09%     241.508us         2.09%     241.508us       2.013us       1.41 Mb       1.41 Mb           120  
+                    aten::flatten         1.56%     180.425us        14.10%       1.629ms      81.445us     320.00 Kb           0 b            20  
+                 aten::dequantize         1.47%     169.443us         1.64%     189.412us       9.471us      25.00 Kb           0 b            20  
+        aten::quantize_per_tensor         1.31%     150.879us         1.31%     150.879us       7.544us      40.00 Kb      40.00 Kb            20  
+                      aten::empty         0.81%      93.828us         0.81%      93.828us       1.564us     210.00 Kb     210.00 Kb            60  
+                 aten::max_pool2d         0.45%      52.345us        21.34%       2.466ms     123.278us     160.00 Kb           0 b            20  
+                    aten::resize_         0.45%      52.034us         0.45%      52.034us       1.301us      39.75 Kb      39.75 Kb            40  
+                       aten::item         0.38%      43.908us         0.52%      60.571us       1.514us           0 b           0 b            40  
+               aten::_unsafe_view         0.33%      38.067us         0.33%      38.067us       1.903us           0 b           0 b            20  
+                    aten::q_scale         0.17%      19.697us         0.17%      19.697us       0.164us           0 b           0 b           120  
+               aten::q_zero_point         0.15%      17.518us         0.15%      17.518us       0.146us           0 b           0 b           120  
+        aten::_local_scalar_dense         0.14%      16.663us         0.14%      16.663us       0.417us           0 b           0 b            40  
+                    aten::qscheme         0.08%       9.461us         0.08%       9.461us       0.158us           0 b           0 b            60  
+                         [memory]         0.00%       0.000us         0.00%       0.000us       0.000us      -1.51 Mb      -1.51 Mb           160  
+---------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 11.555ms

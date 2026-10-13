@@ -1,0 +1,88 @@
+✔ 3D damage exactly reuses tactical hitDamage, element rules and recorded RNG draws (1468.941209ms)
+✔ button spam cannot bypass windup, cooldown or will cost; an out-of-range cast pays nothing (8.9368ms)
+✔ frozen attack direction and position are checked at impact (0.785635ms)
+✔ a correctly timed sideways dodge avoids a bash while still inside its range (2.062541ms)
+✔ simultaneous lethal impacts resolve to defeat and terminal states reject new commands (1.652371ms)
+✔ a close-range attack strategy wins, and an idle player can be defeated (31.584844ms)
+✔ identical tick-stamped input replays the full combat state at 30, 60 and 120 render rates (46.24718ms)
+✔ enemy render state and effects dispose without changing campaign state (435.177609ms)
+✔ Vorthas uses existing boss stats and the exact same Second Skin transformation as tactical combat (2.398081ms)
+✔ Second Skin happens once, lethal first-skin damage still evolves, and death preempts evolution (0.711174ms)
+✔ phase transition cancels pending actions and rejects damage commands without charging will (0.564306ms)
+✔ boss radial attacks hit around the boss while directed roars can be sidestepped (0.257828ms)
+✔ late taps buffer exactly one next strike and dodge can cancel recovery after committed damage (0.209153ms)
+✔ a timed strike-and-dodge strategy can finish both boss phases with the original player stats (20.848916ms)
+✔ the live boss spawn, obstacles and Second Skin replay identically at 30, 60 and 120 render rates (50.88665ms)
+WebSocket server error: Port 24678 is already in use
+(!) Failed to run dependency scan. Skipping dependency pre-bundling. Error:   Failed to scan for dependencies from entries:
+  /workspace/scratch/5e869b31a612/website-review/concordia/index.html
+/workspace/scratch/5e869b31a612/website-review/concordia/dist/index.html
+
+  Build failed with 10 errors:
+
+[plugin vite:dep-scan:resolve]
+Error: The server is being restarted or closed. Request is outdated
+    at throwClosedServerError (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30025:30)
+    at EnvironmentPluginContainer.resolveId (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30160:65)
+    at resolveId (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30866:38)
+    at resolve (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30878:22)
+    at PluginContextImpl.resolveId (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:31008:29)
+    at plugin (file:///workspace/scratch/5e869b31a612/website-review/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1092:30)
+    at plugin.<computed> (file:///workspace/scratch/5e869b31a612/website-review/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1625:18)
+[plugin vite:dep-scan:resolve]
+Error: The server is being restarted or closed. Request is outdated
+    at throwClosedServerError (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30025:30)
+    at EnvironmentPluginContainer.resolveId (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30160:65)
+    at async ResolveIdContext.resolve (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30416:13)
+    at async ResolveIdContext.viteAliasCustomResolver (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:29980:9)
+[plugin vite:dep-scan:resolve]
+Error: The server is being restarted or closed. Request is outdated
+    at throwClosedServerError (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30025:30)
+    at EnvironmentPluginContainer.resolveId (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30160:65)
+    at async ResolveIdContext.resolve (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30416:13)
+    at async ResolveIdContext.viteAliasCustomResolver (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:29980:9)
+[plugin vite:dep-scan:resolve]
+Error: The server is being restarted or closed. Request is outdated
+    at throwClosedServerError (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30025:30)
+    at EnvironmentPluginContainer.resolveId (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30160:65)
+    at async ResolveIdContext.resolve (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30416:13)
+    at async ResolveIdContext.viteAliasCustomResolver (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:29980:9)
+[plugin vite:dep-scan:resolve]
+Error: The server is being restarted or closed. Request is outdated
+    at throwClosedServerError (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30025:30)
+    at EnvironmentPluginContainer.resolveId (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30160:65)
+    at async ResolveIdContext.resolve (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30416:13)
+    at async ResolveIdContext.viteAliasCustomResolver (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:29980:9)
+...
+    at aggregateBindingErrorsIntoJsError (file:///workspace/scratch/5e869b31a612/website-review/node_modules/rolldown/dist/shared/error-CkdMJ9ps.mjs:48:18)
+    at unwrapBindingResult (file:///workspace/scratch/5e869b31a612/website-review/node_modules/rolldown/dist/shared/error-CkdMJ9ps.mjs:18:128)
+    at scan (file:///workspace/scratch/5e869b31a612/website-review/node_modules/rolldown/dist/experimental-index.mjs:176:3)
+    at async Object.build (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30826:3)
+    at async scan (file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:30771:4)
+    at async file:///workspace/scratch/5e869b31a612/website-review/node_modules/vite/dist/node/chunks/node.js:23242:15
+✔ Causeway movement is bounded, camera-relative, and repeatable across render rates (931.446844ms)
+WebSocket server error: Port 24678 is already in use
+✔ the 3D world can be constructed and disposed without accessing gameplay state (959.285041ms)
+✔ Causeway movement is bounded and interaction distance is one step (68.605166ms)
+✔ older saves get safe spawns for both roads and new positions survive reload (16.161168ms)
+WebSocket server error: Port 24678 is already in use
+✔ Causeway exploration, one-time find, and patrol return share the live game store (1543.603686ms)
+7:31:32 AM [vite] (client) [optimizer] bundling dependencies...
+✔ combat hits schedule audible transients while audio is unlocking, and mute works (65.023226ms)
+✔ visitors can vote once per device and change their choice (143.660432ms)
+WebSocket server error: Port 24678 is already in use
+✔ both connected roads render and their repeatable fights end promptly under an attack strategy (1751.160359ms)
+✔ unrecorded story lines use browser speech, recorded lines stay preferred, and mute stops narration (92.943792ms)
+✔ ANNA overview preserves independent authorization boundaries (133.497184ms)
+✔ Neural evidence page renders real metrics and disclosure (28.687176ms)
+✔ Existing development projects retain home navigation (30.320304ms)
+✔ Existing records route still renders (27.404315ms)
+✔ omits development preview metadata (187.045352ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2959.983793

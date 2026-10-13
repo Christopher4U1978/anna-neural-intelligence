@@ -1,0 +1,83 @@
+{
+  "conditions": "one thread, batch 1, zero input, separate fresh processes, warm OS page cache possible",
+  "rows": [
+    {
+      "import_ms": 6658.182416000045,
+      "load_and_configure_ms": 47.39007000011952,
+      "first_forward_ms": 34.241659999906915,
+      "worker_total_ms": 6739.814146000072,
+      "output_shape": [
+        1,
+        10
+      ],
+      "variant": "fp32",
+      "repeat": 0,
+      "parent_launch_to_exit_ms": 7654.199875000131
+    },
+    {
+      "import_ms": 4233.99973100004,
+      "load_and_configure_ms": 410.05137799993463,
+      "first_forward_ms": 9.75940300008915,
+      "worker_total_ms": 4653.810512000064,
+      "output_shape": [
+        1,
+        10
+      ],
+      "variant": "int8",
+      "repeat": 0,
+      "parent_launch_to_exit_ms": 5560.71051999993
+    },
+    {
+      "import_ms": 3989.6327419999125,
+      "load_and_configure_ms": 18.55550100003711,
+      "first_forward_ms": 2.3346390000824613,
+      "worker_total_ms": 4010.522882000032,
+      "output_shape": [
+        1,
+        10
+      ],
+      "variant": "fp32",
+      "repeat": 1,
+      "parent_launch_to_exit_ms": 4678.508462999844
+    },
+    {
+      "import_ms": 3586.1738580001656,
+      "load_and_configure_ms": 369.0512050000052,
+      "first_forward_ms": 4.207367999924827,
+      "worker_total_ms": 3959.4324310000957,
+      "output_shape": [
+        1,
+        10
+      ],
+      "variant": "int8",
+      "repeat": 1,
+      "parent_launch_to_exit_ms": 4742.484804000014
+    },
+    {
+      "import_ms": 3749.585942000067,
+      "load_and_configure_ms": 20.171687000129168,
+      "first_forward_ms": 1.4616519999890443,
+      "worker_total_ms": 3771.219281000185,
+      "output_shape": [
+        1,
+        10
+      ],
+      "variant": "fp32",
+      "repeat": 2,
+      "parent_launch_to_exit_ms": 4484.9561910000375
+    },
+    {
+      "import_ms": 3819.9909450001996,
+      "load_and_configure_ms": 400.82198999994034,
+      "first_forward_ms": 4.060075999859691,
+      "worker_total_ms": 4224.873011,
+      "output_shape": [
+        1,
+        10
+      ],
+      "variant": "int8",
+      "repeat": 2,
+      "parent_launch_to_exit_ms": 4984.211794999965
+    }
+  ]
+}
