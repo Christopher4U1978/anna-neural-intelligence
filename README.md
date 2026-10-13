@@ -78,7 +78,7 @@ cd anna-neural-intelligence-history
 git switch operation-neural-forge
 ```
 
-Christopher4U1978 created the dedicated public repository after approving publication. Source is uploaded through the existing authenticated GitHub connection, using operation-neural-forge before a complete main release. Website version 31 is already published. Original local branch history and review checkpoints remain in the portable review package; GitHub clones can reproduce weights with the training commands. The CI workflow is prepared but has not run on GitHub. Phase 5 ANNA integration remains gated by standalone owner review.
+Christopher4U1978 created the dedicated public repository after approving publication. Source is uploaded through the existing authenticated GitHub connection, using operation-neural-forge before a complete main release. Website version 31 is already published. Original local branch history and review checkpoints remain in the portable review package; GitHub clones can reproduce weights with the training commands. GitHub Actions passes 29/29 tests on both main and operation-neural-forge for the verified code release fd349950250550c6ca5bd29342ecd5236d2b0aae. See results/github-publication.json. Phase 5 ANNA integration remains gated by standalone owner review.
 
 ## Troubleshooting
 

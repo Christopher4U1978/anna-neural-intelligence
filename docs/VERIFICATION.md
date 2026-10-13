@@ -29,7 +29,7 @@
 
 - Website root TypeScript diagnostics arise in existing Concordia aliases, implicit types and Cloudflare bindings. The exact original source revision reproduces the same 184 diagnostics; no new diagnostics were introduced. We preserve this pre-existing limitation and do not change the game/build architecture to hide it. New ANNA routes pass targeted strict checking with a CSS-module declaration.
 - Real desktop/mobile browser QA is unverified because the supported managed-browser capability was unavailable. Responsive CSS, semantic headings, table captions/headers, image descriptions and keyboard focus styles are implemented; HTTP render and type checks cannot prove visual behavior on devices.
-- No remote CI run, GitHub repository publication, website source push/deployment, production change, Tesla hardware access or GPU measurement occurred. GitHub destination is pending between the two connected accounts.
+- GitHub publication is verified under Christopher4U1978/anna-neural-intelligence on main and operation-neural-forge. GitHub Actions passes 29/29 tests for code commit fd349950250550c6ca5bd29342ecd5236d2b0aae on both branches. A fresh public clone has 166 matching files and passes the same suite. Website version 32 deploys the public GitHub link. No production model-serving integration, Tesla hardware access or GPU measurement occurred. See results/github-publication.json.
 - Phase 5 integration design/implementation is deferred until standalone owner review. No completed ANNA integration proposal is claimed. The existing standalone inference contract is documented separately.
 - Three seeds and one dataset are a small sample. Exact reproducibility is demonstrated only on the current CPU software environment. No cross-platform guarantee, safety certification or production accuracy threshold is assumed.
 - INT8 strict deterministic enforcement is scoped off for a PyTorch 2.5.1 kernel registration limitation; FP32 training remains strict. Observer/TypedStorage deprecation warnings are retained.
@@ -40,3 +40,7 @@
 - Package installation/data downloads were no-cost local operations. API spend and authorized ANNA live-experiment spend remain $0.
 
 A reviewer should execute README reproduction commands on a separate host and Christopher should operate/explain them personally before interview delivery. Local tests and receipts establish the measured engineering artifact, not personal experience or external independent certification.
+
+## Public release verification
+
+The owner created the dedicated public repository after explicit publication approval. Main-branch CI job 115586276466 ran 29 tests in 1.070 seconds and returned OK; both branch workflow runs concluded success. Public source was cloned independently and all 166 files byte-matched the prepared upload. The final website link build passes its five HTML-route tests and targeted TypeScript; all 29 available site/game tests passed in the preceding full release. Documentation-only publication receipts preserve the tested code unchanged.

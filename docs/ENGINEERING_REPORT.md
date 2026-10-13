@@ -6,7 +6,7 @@ Anna Nexus Labs LLC • Christopher Payne • Operation Neural Forge • 13 Octo
 
 An original 38,282-parameter PyTorch CNN trained from random initialization on UCI Optical Digits. The predefined seed-369 reference correctly classifies 1754/1797 held-out images (**97.61% accuracy**). Its best validation-loss checkpoint is epoch 14 of 40. Automated neural tests pass 29/29. Repeating the reference seed produces bit-identical selected weights and identical test metrics in the same environment. ANNA 1.3 separately reproduces 101/101 tests plus strict TypeScript in an isolated copy.
 
-This is an independent portfolio demonstration for technical discussion, not an official Tesla assignment or endorsed product. No custom Tesla silicon, GPU inference, live model API requests or production changes occurred. Repository and website publication await owner review.
+This is an independent portfolio demonstration for technical discussion, not an official Tesla assignment or endorsed product. No custom Tesla silicon, GPU inference, live model API requests or production changes occurred. The owner approved publication. Source is public at https://github.com/Christopher4U1978/anna-neural-intelligence and the evidence page is live at https://behindtheveil369.work/anna-neural.
 
 ## Data and training
 
@@ -124,12 +124,12 @@ The network estimates 116,352 MACs per image, or 232,704 convolution/linear arit
 
 29 tests pass across shapes, logits, finite loss, all parameter gradients, optimizer updates, seed control, deterministic one-step training, disjoint splits, train-only normalization, batching, checkpoint and optimizer restore, known metrics, empty-data rejection, real INT8 operators/reload, unsupported backend rejection, channels-last numerical consistency, benchmark arithmetic/samples, source manifests, real-schema pipeline handling and cache tampering. Same-seed full retraining matches selected weights and metrics exactly. Raw receipts preserve the initial deterministic INT8 failure and the interrupted contaminated benchmark.
 
-CI source is prepared but not executed remotely. Source/Git bundle and website patch are reviewable locally. The website build/render checks are documented in VERIFICATION.md; real desktop/mobile browser QA remains unverified because the supported managed-browser capability was unavailable. No public deployment occurred.
+GitHub Actions passes 29/29 tests on both main and operation-neural-forge for verified code commit fd349950250550c6ca5bd29342ecd5236d2b0aae. Source/Git bundle and website patch are reviewable locally. The website build/render checks are documented in VERIFICATION.md; real desktop/mobile browser QA remains unverified because the supported managed-browser capability was unavailable. The public evidence page is deployed; no trained model-serving service or ANNA integration was deployed.
 
 The model is small, the dataset is narrow and one local hardware environment cannot establish accelerator or production behavior. Static quantization uses a pinned legacy API with retained deprecation warnings. Model compilation, pruning, ONNX, BF16, GPU comparisons, calibration tuning and CIFAR-10 training are future experiments, not completed capabilities. Phase 5 ANNA integration awaits standalone owner review.
 
 ## Reproduction and review
 
-Use README.md commands, fixed configs/cpu.json and exact source/data manifests. results/benchmarks/summary.json and benchmark-table.csv support reanalysis. demonstrations/live_demo.sh, WALKTHROUGH.md and INTERVIEW_GUIDE.md support an honest technical demonstration. Review both accounts before selecting the GitHub owner and approve website deployment separately.
+Use README.md commands, fixed configs/cpu.json and exact source/data manifests. results/benchmarks/summary.json and benchmark-table.csv support reanalysis. demonstrations/live_demo.sh, WALKTHROUGH.md and INTERVIEW_GUIDE.md support an honest technical demonstration. The owner selected Christopher4U1978 and approved publication. GitHub source and the website evidence page are public; independent reviewer reproduction remains open.
 
 External references: [UCI dataset and license](https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits), [PyTorch quantization recipe](https://docs.pytorch.org/tutorials/recipes/quantization.html), [PyTorch x86 INT8 backend](https://docs.pytorch.org/blog/int8-quantization/). Results above come from local executable receipts, not these references.

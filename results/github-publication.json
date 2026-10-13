@@ -1,0 +1,51 @@
+{
+  "repository_url": "https://github.com/Christopher4U1978/anna-neural-intelligence",
+  "public": true,
+  "verified_code_commit": "fd349950250550c6ca5bd29342ecd5236d2b0aae",
+  "branches": [
+    "main",
+    "operation-neural-forge"
+  ],
+  "tracked_files_verified": 166,
+  "byte_mismatches": 0,
+  "fresh_clone_tests": {
+    "passed": 29,
+    "failed": 0
+  },
+  "github_actions": [
+    {
+      "id": 38481921337,
+      "branch": "main",
+      "conclusion": "success",
+      "url": "https://github.com/Christopher4U1978/anna-neural-intelligence/actions/runs/38481921337"
+    },
+    {
+      "id": 38481919146,
+      "branch": "operation-neural-forge",
+      "conclusion": "success",
+      "url": "https://github.com/Christopher4U1978/anna-neural-intelligence/actions/runs/38481919146"
+    }
+  ],
+  "main_job": {
+    "id": 115586276466,
+    "passed_tests": 29,
+    "failed_tests": 0,
+    "seconds": 1.07
+  },
+  "website": {
+    "version": 32,
+    "source_commit": "93121ee2725021680766b3c41acdc671b748e731",
+    "status": "succeeded",
+    "url": "https://behindtheveil369.work/anna-neural",
+    "saved_version_id": "appgprj_6a8a316e4c208191b81d9adffc57ead2~appgver_972118ccb5b48191b1c860c5ec1597ab",
+    "deployment_id": "appgdep_6aceb9ec42ec81919a516ebea2feaa8c"
+  },
+  "anna_live_spending_authorized_usd": 0,
+  "model_api_calls": 0,
+  "remaining_limits": [
+    "Real desktop/mobile browser QA unverified",
+    "Existing website root TypeScript retains 184 pre-existing diagnostics",
+    "No GPU/Tesla hardware measurements",
+    "No ANNA runtime integration"
+  ]
+}

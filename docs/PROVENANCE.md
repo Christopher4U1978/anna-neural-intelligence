@@ -33,3 +33,7 @@ The website deployment succeeded: source b3fc381860b453f83befe1b54631af8c3915098
 ## GitHub publication preparation
 
 The owner created the empty public repository Christopher4U1978/anna-neural-intelligence. Connector access confirms owner identity and push permission. An initialization commit establishes the GitHub baseline and operation-neural-forge branch. The complete reviewed tracked source and evidence are uploaded as a tree/commit through GitHub APIs, then fast-forwarded to main. Original local history is retained in the portable review package; remote commit identifiers differ from local Git identifiers. No existing ANNA repository is modified. CI execution is verified separately after upload.
+
+## Completed public release
+
+GitHub code commit fd349950250550c6ca5bd29342ecd5236d2b0aae publishes 166 files on main and operation-neural-forge. A fresh public clone byte-matched all files and passed 29 tests. Both GitHub workflow runs concluded success; the main job ran 29 tests in 1.070 seconds and returned OK. Website version 32 deployed successfully with the public repository link, source 93121ee2725021680766b3c41acdc671b748e731. The later documentation-only metadata commit uses [skip ci] because no tested source, tests, configuration or workflow changed.
